@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(236, 231, 231);
+    font-family: 'Roboto', sans-serif;    
+}
+.post {
+    margin: 50px auto 0;
+    width: 350px;
+    height: 460px;
+    border-radius: 10px;
+    border: gray 1px solid;  
+    background-color: white;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 11px 1px 11px;
+    font-size: small;    
+}
+.post-header-izq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.parrafo {
+    margin-left: 5px;
+}
+.post-image img {
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;   
+}
+.post-footer {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: small;
+    margin: 2px 11px 8px 11px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 11px 2px 11px;
+}
